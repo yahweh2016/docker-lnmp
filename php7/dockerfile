@@ -23,7 +23,7 @@ RUN yum install -y \
 
 #install php
 RUN cd /tmp && \
-     wget http://cn.php.net/distributions/php-7.1.5.tar.gz && \
+     wget http://cn2.php.net/distributions/php-7.1.5.tar.gz && \
      tar -zxvf php-7.1.5.tar.gz && \
      cd php-7.1.5 && \
      ./configure --prefix=/usr/local/php7 \
